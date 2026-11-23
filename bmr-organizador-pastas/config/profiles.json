@@ -1,0 +1,133 @@
+{
+  "Direito Ambiental - Padrão Maykell": {
+    "description": "Organização processual por cliente, sem criar uma pasta genérica chamada Direito Ambiental.",
+    "default_root": "CLIENTE_AMBIENTAL",
+    "folders": [
+      {
+        "folder": "00_CONTROLE_E_CHECKLIST",
+        "label": "Controle e checklist",
+        "keywords": ["checklist", "status", "controle", "leia me", "inventario", "manifesto", "relacao de documentos"]
+      },
+      {
+        "folder": "01_CADASTRO_E_SOCIETARIO",
+        "label": "Cadastro e societário",
+        "keywords": ["cnpj", "qsa", "contrato social", "alteracao contratual", "requerimento empresario", "sintegra", "inscricao estadual", "fic", "cadastro empresa", "quadro de socios"]
+      },
+      {
+        "folder": "02_DOCUMENTOS_DO_RESPONSAVEL",
+        "label": "Documentos do responsável",
+        "keywords": ["cpf", "rg", "cnh", "identidade", "documento pessoal", "socio administrador", "representante legal"]
+      },
+      {
+        "folder": "03_IMOVEL_E_LOCALIZACAO",
+        "label": "Imóvel e localização",
+        "keywords": ["escritura", "matricula", "imovel", "contrato de locacao", "locacao", "planta", "croqui", "coordenada", "georreferenciamento", "mapa", "uso e ocupacao", "semob"]
+      },
+      {
+        "folder": "04_LICENCAS_E_AUTORIZACOES",
+        "label": "Licenças e autorizações",
+        "keywords": ["licenca", "alvara", "clcb", "avcb", "bombeiro", "sanitaria", "anp", "autorizacao", "outorga", "dispensa", "lo ", "li ", "lp ", "las ", "lad "]
+      },
+      {
+        "folder": "05_PROCESSO_AMBIENTAL",
+        "label": "Processo ambiental",
+        "keywords": ["processo ambiental", "requerimento semma", "requerimento padrao", "fce", "formulario de caracterizacao", "cadastro posto", "cadastro de empresa", "empresa digital", "desenvolve cidade"]
+      },
+      {
+        "folder": "06_ESTUDOS_E_RELATORIOS_TECNICOS",
+        "label": "Estudos e relatórios técnicos",
+        "keywords": ["riaa", "ria ", "rada", "eas", "pca", "pgrs", "pea", "peat", "laudo", "estanqueidade", "art", "memorial", "projeto", "relatorio tecnico", "plano de automonitoramento"]
+      },
+      {
+        "folder": "07_FOTOS_E_EVIDENCIAS",
+        "label": "Fotos e evidências",
+        "keywords": ["foto", "fotografico", "imagem", "evidencia", "registro fotografico", "timemark", "vistoria"]
+      },
+      {
+        "folder": "08_RESIDUOS_E_EFLUENTES",
+        "label": "Resíduos e efluentes",
+        "keywords": ["residuo", "efluente", "oleo", "oleoso", "mtr", "cdf", "destinacao", "coleta", "csao", "caixa separadora", "manifesto de transporte", "esgoto"]
+      },
+      {
+        "folder": "09_TAXAS_E_COMPROVANTES",
+        "label": "Taxas e comprovantes",
+        "keywords": ["dam", "boleto", "pagamento", "comprovante", "taxa", "pix", "arrecadacao", "guia"]
+      },
+      {
+        "folder": "10_PROTOCOLOS_NOTIFICACOES_E_OFICIOS",
+        "label": "Protocolos, notificações e ofícios",
+        "keywords": ["protocolo", "notificacao", "pendencia", "oficio", "defesa", "resposta", "prorrogacao", "manifestacao", "juntada"]
+      }
+    ],
+    "special": {
+      "signed": "12_DOCUMENTOS_ASSINADOS",
+      "to_sign": "11_DOCUMENTOS_PARA_ASSINAR",
+      "models": "90_MODELOS_E_ROTEIROS_NAO_PROTOCOLAR",
+      "history": "99_HISTORICO_E_BACKUP",
+      "review": "00_PARA_REVISAR"
+    }
+  },
+  "Engenharia de Software - UNOPAR": {
+    "description": "Organização acadêmica e técnica da graduação e dos projetos de software.",
+    "default_root": "Engenharia_de_Software",
+    "folders": [
+      {
+        "folder": "01_DOCUMENTOS_ACADEMICOS",
+        "label": "Documentos acadêmicos",
+        "keywords": ["matricula", "historico", "diploma", "certificado", "declaracao academica", "boletim", "grade curricular"]
+      },
+      {
+        "folder": "02_AULAS_E_ANOTACOES",
+        "label": "Aulas e anotações",
+        "keywords": ["aula", "anotacao", "resumo", "apostila", "material didatico", "slide", "conteudo"]
+      },
+      {
+        "folder": "03_PROJETOS_DE_PROGRAMACAO",
+        "label": "Projetos de programação",
+        "keywords": ["projeto", "aplicacao", "programa", "sistema", "github", "codigo fonte", "source", "app"]
+      },
+      {
+        "folder": "04_ENGENHARIA_DE_SOFTWARE",
+        "label": "Engenharia de software",
+        "keywords": ["requisito", "uml", "caso de uso", "arquitetura", "engenharia de software", "scrum", "kanban", "teste de software", "qualidade"]
+      },
+      {
+        "folder": "05_BANCO_DE_DADOS",
+        "label": "Banco de dados",
+        "keywords": ["sql", "banco de dados", "database", "modelagem", "entidade relacionamento", "mysql", "postgres", "sqlite"]
+      },
+      {
+        "folder": "06_INTELIGENCIA_ARTIFICIAL",
+        "label": "Inteligência artificial",
+        "keywords": ["inteligencia artificial", "machine learning", "deep learning", "cnn", "rnn", "lstm", "gru", "gan", "fuzzy", "rede neural"]
+      },
+      {
+        "folder": "07_PYTHON_E_AUTOMACAO",
+        "label": "Python e automação",
+        "keywords": ["python", "automacao", "script", "tkinter", "customtkinter", "pyinstaller", "selenium"]
+      },
+      {
+        "folder": "08_TRABALHOS_UNOPAR",
+        "label": "Trabalhos UNOPAR",
+        "keywords": ["unopar", "atividade", "avaliacao", "portfolio", "projeto de extensao", "u1", "u2", "u3", "trabalho academico"]
+      },
+      {
+        "folder": "09_MODELOS_E_PROMPTS",
+        "label": "Modelos e prompts",
+        "keywords": ["prompt", "modelo", "template", "estrutura", "roteiro", "instrucao"]
+      },
+      {
+        "folder": "10_BACKUP_E_ARQUIVOS_FINAIS",
+        "label": "Backup e arquivos finais",
+        "keywords": ["backup", "final", "entrega", "versao final", "release", "compactado"]
+      }
+    ],
+    "special": {
+      "signed": "10_BACKUP_E_ARQUIVOS_FINAIS",
+      "to_sign": "10_BACKUP_E_ARQUIVOS_FINAIS",
+      "models": "09_MODELOS_E_PROMPTS",
+      "history": "10_BACKUP_E_ARQUIVOS_FINAIS",
+      "review": "00_PARA_REVISAR"
+    }
+  }
+}
